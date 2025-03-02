@@ -1,7 +1,7 @@
 pipeline {
-    agent any
+    agent anygit 
     stages {
-        stage('Build') {
+        stage('improvement') {
             steps {
                 //
             }
