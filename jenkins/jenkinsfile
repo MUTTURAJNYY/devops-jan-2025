@@ -13,5 +13,10 @@ pipeline {
                 sh 'echo "this is test"'
             }
         }
+        stage('develope') {
+            steps {
+                sh 'echo "my muddu"'
+            }
+        }
     }
 }
