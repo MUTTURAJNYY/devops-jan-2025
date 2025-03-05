@@ -3,19 +3,11 @@ pipeline {
         label 'dev'
     }
     stages {
-        stage('build') {
+        stage {
             steps {
-                sh 'echo "my name is raj"'
-            }
-        }
-        stage('test') {
-            steps {
-                sh 'echo "this is test"'
-            }
-        }
-        stage('develope') {
-            steps {
-                sh 'echo "my muddu"'
+                step {
+                    sh 'echo "my name is muttu"'
+                }
             }
         }
     }
