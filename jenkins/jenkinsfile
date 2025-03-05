@@ -2,7 +2,7 @@ pipeline {
     agent {
         label 'dev'
     }
-    stages {
+    stages('build') {
         stage {
             steps {
                 step {
