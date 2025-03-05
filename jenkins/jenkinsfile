@@ -2,11 +2,15 @@ pipeline {
     agent {
         label 'dev'
     }
-
     stages {
         stage('build') {
             steps {
-                sh 'lscpu'
+                sh 'echo "my name is raj"'
+            }
+        }
+        stage('test') {
+            steps {
+                sh 'echo "this is test"'
             }
         }
     }
